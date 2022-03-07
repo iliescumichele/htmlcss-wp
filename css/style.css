@@ -29,9 +29,6 @@
   height: 100%;
 }
 
-.main-text-color{
-  color: #898989;
-}
 /* ----------------------------------------- */
 
 
@@ -62,6 +59,11 @@ header .logo img{
 .container nav ul li a{
   color: #898989;
   text-transform: uppercase;
+  text-decoration: none;
+}
+
+.head-main>p{
+  color: #898989;
 }
 /* ----------------------------------------- */
 
@@ -101,14 +103,21 @@ h1{
 }
 
 aside, .col-center{
-  height: 400px;
+  height: 450px;
 }
 
 aside{
   width: 20%;
+  margin-bottom: 2%;
 }
 
-.col-sx .image-size{
+.col-center{
+  margin: auto 2%;
+  width: 56%;
+  margin-bottom: 2%;
+}
+
+.col-sx .image-size, .col-center .image-size, .col-dx .image-size{
   height: 35%;
 }
 
@@ -116,21 +125,38 @@ main .col-sx .image-size{
   background-image: url(/img/img-1.jpg);
 }
 
-.col-center{
-  margin: auto 1.5%;
-  width: 57%;
-  margin-bottom: 2%;
+main .col-center .image-size{
+  background-image: url(/img/banner-2.jpg);
 }
+
+main .col-dx .image-size{
+  background-image: url(/img/img-3.jpg);
+}
+
+
+.main-text{
+  margin: 18px auto;
+  color: #ababab;
+}
+
+.main-text .col-title{
+  font-weight: 500;
+  padding-bottom: 10px;
+  color: black;
+}
+
 
 
 
 /* FOOTER */
-footer.container{
-  height: 40px;
-  margin: 10px auto;
-  background-color: #8701ff;
+footer p{
+  margin: 20px auto;
+  text-align: center;
 }
 
+#hearth{
+  color: red;
+}
 
 
 
