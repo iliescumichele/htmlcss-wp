@@ -1,0 +1,142 @@
+/* 
+  ---GENERAL
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+/* ----------------------------------------- */
+
+
+/* HEADER */
+.container{
+  width: 75%;
+  max-width: 1200px;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+header.container{
+  margin-bottom: 20px;
+}
+
+header .logo img{
+  height: 60px;
+  border-right: 1px solid #e6e6e6;
+  padding-right: 15px;
+}
+
+.container nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 40px 15px 15px 0;
+}
+
+.container nav ul li a{
+  color: #898989;
+  text-transform: uppercase;
+}
+/* ----------------------------------------- */
+
+
+/* JUMBOTRON */
+section{
+  margin: 20px auto;
+  height: 400px;
+  background-image: url(/img/banner.jpg);
+  color: white;
+}
+
+.jumbotron-size{
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.jumbotron-overlay{
+  background-color: rgba(0, 0, 0, 0.21);
+  height: 100%;
+}
+
+.jumbotron-title{
+  font-size: 2em;
+}
+
+.jumbotron-text{
+  width: 55%;
+  padding: 250px 0 0 35px;
+}
+/* ----------------------------------------- */
+
+
+
+/* MAIN */
+main.container{
+  margin: 20px auto 10px;
+  background-color: #0086ff;
+}
+
+
+.head-main{
+  height: 60px;
+  margin-bottom: 2%;
+}
+
+aside{
+  height: 400px;
+  width: 20%;
+}
+
+.col-sx{
+  float: left;
+}
+
+.col-dx{
+  float: right;
+}
+
+.col-center{
+  float: left;
+  margin: auto 1.5%;
+  height: 400px;
+  width: 57%;
+  margin-bottom: 2%;
+}
+
+
+
+/* FOOTER */
+footer.container{
+  height: 40px;
+  margin: 10px auto;
+  background-color: #8701ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box-color{
+  background-color: #abcfe7;
+}
