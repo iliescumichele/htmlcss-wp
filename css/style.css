@@ -72,7 +72,7 @@ header .logo img{
 section{
   margin: 20px auto;
   height: 400px;
-  background-image: url(/img/banner.jpg);
+  background-image: url(../img/banner.jpg);
   color: white;
 }
 
@@ -122,15 +122,15 @@ aside{
 }
 
 main .col-sx .image-size{
-  background-image: url(/img/img-1.jpg);
+  background-image: url(../img/img-1.jpg);
 }
 
 main .col-center .image-size{
-  background-image: url(/img/banner-2.jpg);
+  background-image: url(../img/banner-2.jpg);
 }
 
 main .col-dx .image-size{
-  background-image: url(/img/img-3.jpg);
+  background-image: url(../img/img-3.jpg);
 }
 
 
